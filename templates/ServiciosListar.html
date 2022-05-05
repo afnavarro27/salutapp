@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="/css/images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="//cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+  <script src="/Scripts/script.js"></script>
+  <title>BootStrap Work Sena</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-social">
+      <div class="header-social__icons">
+        <a href="#"><img class="icon1" src="/css/images/facebook.svg" alt="facebook"></a></li>
+        <a href="#"><img class="icon1" src="/css/images/instagram.svg" alt="instagram"></a></li>
+        <a href="#"><img class="icon1" src="/css/images/twitter.svg" alt="twitter"></a></li>
+        <a href="#"><img class="icon1" src="/css/images/youtube.svg" alt="youtube"></a></li>
+      </div>
+    </div>
+
+    <div class="header-banner">
+      <a href="principal.html"><img class="banner" src="/css/images/banner1.png" alt="Banner SalutApp"></a>
+    </div>
+
+    <div class="header-navbar">
+      <nav id="Nav" class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="principal.html"><img src="/css/images/favicon.png" alt="Logo SalutApp"></a>
+          </div>
+          <ul class="nav navbar-nav">
+
+            <li><a href="principal.html">Inicio</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown">Planes
+                <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="PlanesListar.html">Listar</a></li>
+                <li><a href="PlanesRegistrar.html">Registrar</a></li>
+              </ul>
+            </li>
+
+            <li class="active" class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown">Servicios
+                <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="active" ><a href="ServiciosListar.html">Listar</a></li>
+                <li><a href="ServiciosRegistrar.html">Registrar</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown">Sobre Nosotros
+                <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="SobreNosotrosListar.html">Listar</a></li>
+                <li><a href="SobreNosotrosRegistrar.html">Registrar</a></li>
+              </ul>
+            </li>
+
+
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown">Soporte
+                <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="SoporteListar.html">Listar</a></li>
+                <li><a href="SoporteRegistrar.html">Registrar</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown">Utilidades
+                <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="UtilidadesListar.html">Listar</a></li>
+                <li><a href="UtilidadesRegistrar.html">Registrar</a></li>
+              </ul>
+            </li>
+
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li> <button id="btn-registro" type="button" data-toggle="modal" data-target="#myModal"><span
+                  class="glyphicon glyphicon-log-in"></span> Registrarse</button>
+            <li> <button id="btn-ingreso" type="button" data-toggle="modal" data-target="#ModalIngreso"><span
+                  class="glyphicon glyphicon-log-in"></span> Ingresar</button>
+            <li><a href="#"><img class="icon" src="/css/images/espana-icon.png" alt="Español"></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+
+  <section class="our-services" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h5 class="text-dark">Comprometidos con la vida</h5>
+          <h3 class="font-weight-medium text-dark mb-5">Ayudamos a generar un cambio</h3>
+        </div>
+      </div>
+      <div class="row" data-aos="fade-up">
+        <div class="col-sm-4 text-center text-lg-left">
+          <div class="services-box" data-aos="fade-down" data-aos-easing="linear"
+            data-aos-duration="1500">
+            <img src="/css/images/integrated-marketing.svg" alt="integrated-marketing" data-aos="zoom-in">
+            <h6 class="text-dark mb-3 mt-4 font-weight-medium">Integrated
+              Marketing
+            </h6>
+            <p>Lorem ipsum dolor sit amet,
+              pretium pretium tempor.Lorem ipsum
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-4 text-center text-lg-left">
+          <div class="services-box" data-aos="fade-down" data-aos-easing="linear"
+            data-aos-duration="1500">
+            <img src="/css/images/design-development.svg" alt="design-development" data-aos="zoom-in">
+            <h6 class="text-dark mb-3 mt-4 font-weight-medium">Design &
+              Development
+            </h6>
+            <p>Lorem ipsum dolor sit amet,
+              pretium pretium tempor.Lorem ipsum
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-4 text-center text-lg-left">
+          <div class="services-box" data-aos="fade-down" data-aos-easing="linear"
+            data-aos-duration="1500">
+            <img src="/css/images/digital-strategy.svg" alt="digital-strategy" data-aos="zoom-in">
+            <h6 class="text-dark mb-3 mt-4 font-weight-medium">Digital
+              Strategy
+            </h6>
+            <p>Lorem ipsum dolor sit amet,
+              pretium pretium tempor.Lorem ipsum
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row" data-aos="fade-up">
+        <div class="col-sm-4 text-center text-lg-left">
+          <div class="services-box  pb-lg-0" data-aos="fade-down" data-aos-easing="linear"
+            data-aos-duration="1500">
+            <img src="/css/images/digital-marketing.svg" alt="digital-marketing" data-aos="zoom-in">
+            <h6 class="text-dark mb-3 mt-4 font-weight-medium">Digital
+              Marketing
+            </h6>
+            <p>Lorem ipsum dolor sit amet,
+              pretium pretium tempor.Lorem ipsum
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-4 text-center text-lg-left">
+          <div class="services-box pb-lg-0" data-aos="fade-down" data-aos-easing="linear"
+            data-aos-duration="1500">
+            <img src="/css/images/growth-strategy.svg" alt="growth-strategy" data-aos="zoom-in">
+            <h6 class="text-dark mb-3 mt-4 font-weight-medium">Growth
+              Strategy
+            </h6>
+            <p>Lorem ipsum dolor sit amet,
+              pretium pretium tempor.Lorem ipsum
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-4 text-center text-lg-left">
+          <div class="services-box pb-0" data-aos="fade-down" data-aos-easing="linear"
+            data-aos-duration="1500">
+            <img src="/css/images/saving-strategy.svg" alt="saving-strategy" data-aos="zoom-in">
+            <h6 class="text-dark mb-3 mt-4 font-weight-medium">Saving
+              Strategy
+            </h6>
+            <p>Lorem ipsum dolor sit amet,
+              pretium pretium tempor.Lorem ipsum
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Modal Ingreso-->
+  <div id="ModalIngreso" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="login-form">
+            <form action="/examples/actions/confirmation.php" method="post">
+              <h2 class="text-center">Iniciar sesion</h2>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Usuario" required="required">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" placeholder="Contraseña" required="required">
+              </div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-block">Iniciar sesion</button>
+              </div>
+              <div class="clearfix">
+                <label class="pull-left checkbox-inline"><input type="checkbox"> Permanecer conectado</label>
+                <a href="#" class="pull-right">¿No puedes iniciar sesión?</a>
+              </div>
+            </form>
+            <a data-toggle="modal" data-target="#myModal" data-dismiss="modal" class="text-center">Crear una cuenta</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h2 class="text-center">Registrarse</h2>
+          </div>
+          <div class="modal-body">
+            <form action="/examples/actions/confirmation.php" method="post">
+            <label for="Nombre"> Nombre </label>
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+              <input id="Nombre" type="text" class="form-control" name="Nombre" placeholder="Email" required="required">
+            </div>
+
+            <label for="Apellido"> Apellido</label>
+            <div class="input-group">
+              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+              <input id="Apellido" type="text" class="form-control" name="Apellido"  required="required">
+            </div>
+
+            <label for="User-email"> Dirección de correo</label>
+            <div class="input-group">
+              <input id="User-email" type="text" class="form-control" name="email" placeholder="@example.com" required="required">
+              <span class="input-group-addon"><i class="input-group-text"></i>@example.com</span>
+            </div>
+
+            <label for="User-name"> Usuario</label>
+            <div class="input-group">
+              <span class="input-group-addon"><i class="input-group-text"></i>@</span>
+              <input id="User-name" type="text" class="form-control" required="required" name="Usaurio">
+            </div>
+
+            <label for="password"> Contraseña</label>
+            <div class="input-group">
+              <span class="input-group-addon"><i class="input-group-text"></i>***</span>
+              <input id="password" type="password" class="form-control" name="pswd" required="required">
+            </div>
+
+            <label for="password-con">Confirmar contraseña</label>
+            <div class="input-group">
+              <span class="input-group-addon"><i class="input-group-text"></i>***</span>
+              <input id="password-con" type="password" class="form-control" name="pswd-con" required="required">
+            </div>
+          </div>
+          <div class="modal-footer">
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary btn-block">Registrar</button>
+            </div>
+            <div class="clearfix">
+              <label class="pull-left checkbox-inline"><input type="checkbox" required="required"> Acepto terminos y condiciones</label>
+              <a data-toggle="modal" data-target="#ModalIngreso" data-dismiss="modal" class="pull-right">¿Ya tienes una cuenta?</a>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <h2>Lista de Servicios</h2>
+    <p>A continuación podrá encontrar información acerca de los planes ofrecidos</p>
+    <table id="tablita" class="table table-hover">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Detalles</th>
+          <th>Costo</th>
+          <th>Acciones</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Básico</td>
+          <td>Planes alimenticios personalizados <br> Medidor calórico <br> control de sueño.</td>
+          <td>Gratis</td>
+          <td>
+            <button type="button" class="btn btn-primary"  data-toggle="modal" data-target="#planBasicoVer"><span class="glyphicon glyphicon-eye-open"></span></button>
+            <button type="button" class="btn btn-success"  data-toggle="modal" data-target="#planBasicoEditar"><span class="glyphicon glyphicon-pencil"></span></button>
+            <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-remove"></span></button>
+          </td>
+        </tr>
+        <tr>
+          <td>Detallado</td>
+          <td>Planes sin límites <br> medidor de masa muscular <br> índice calórico <br> rutinas personalizadas <br> web space.</td>
+          <td>$45</td>
+          <td>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#planDetalladoVer"><span class="glyphicon glyphicon-eye-open"></span></button>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#planDetalladoEditar"><span class="glyphicon glyphicon-pencil"></span></button>
+            <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-remove"></span></button>
+          </td>
+        </tr>
+        <tr>
+          <td>Preferencial</td>
+          <td>Creación de planes para amigos <br> herramientas de apoyo <br> red de apoyo <br> consulta sin previa agendación <br> servicios de soporte inmediato</td>
+          <td>$50</td>
+          <td>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#planPreferencialVer"><span class="glyphicon glyphicon-eye-open"></span></button>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#planPreferencialEditar"><span class="glyphicon glyphicon-pencil"></span></button>
+            <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-remove"></span></button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+  <!-- plan basico ver -->
+  <div  class="modal" id="planBasicoVer">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4 class="modal-title">Plan Basico</h4>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="email">Nombre servicio</label>
+                        <input type="text" class="form-control" placeholder="Basico" id="email" disabled>
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Detalles</label>
+                        <input type="text" class="form-control" placeholder="alimentacion, medidor calorico, control de sueño
+                        " id="pwd" disabled height="100px">
+                    </div>
+                    <div >
+                        <label for="pwd">Valor plan</label>
+                        <input type="number" class="form-control" placeholder="gratis" id="pwd" disabled>
+                    </div>
+                    <br><button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>    
+        </div>
+    </div>
+</div>
+
+<!-- plan basico editar -->
+<div  class="modal" id="planBasicoEditar">
+  <div class="modal-dialog">
+      <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+              <h4 class="modal-title">Plan Basico</h4>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+              <form>
+                  <div class="form-group">
+                      <label for="email">Nombre servicio</label>
+                      <input type="text" class="form-control" placeholder="Basico" id="email" >
+                  </div>
+                  <div class="form-group">
+                      <label for="pwd">Detalles</label>
+                      <input type="text" class="form-control" placeholder="alimentacion, medidor calorico, control de sueño
+                      " id="pwd"  height="100px">
+                  </div>
+                  <div >
+                      <label for="pwd">Valor plan</label>
+                      <input type="number" class="form-control" placeholder="gratis" id="pwd" >
+                  </div>
+                  <br><button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+          </div>    
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+<!-- plan detallado ver -->
+<div  class="modal" id="planDetalladoVer">
+  <div class="modal-dialog">
+      <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+              <h4 class="modal-title">Plan Basico</h4>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+              <form>
+                  <div class="form-group">
+                      <label for="email">Nombre servicio</label>
+                      <input type="text" class="form-control" placeholder="Detallado" id="email" disabled>
+                  </div>
+                  <div class="form-group">
+                      <label for="pwd">Detalles</label>
+                      <input type="text" class="form-control" placeholder="Planes sin límites, medidor de masa muscular, índice calórico, rutinas personalizadas, web space.
+                      " id="pwd" disabled height="100px">
+                  </div>
+                  <div >
+                      <label for="pwd">Valor plan</label>
+                      <input type="number" class="form-control" placeholder="$45" id="pwd" disabled>
+                  </div>
+                  <br><button type="submit" class="btn btn-primary">Salir</button>
+              </form>
+          </div>    
+      </div>
+  </div>
+</div>
+
+
+<!-- plan detallado editar -->
+<div  class="modal" id="planDetalladoEditar">
+  <div class="modal-dialog">
+      <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+              <h4 class="modal-title">Plan Basico</h4>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+              <form>
+                  <div class="form-group">
+                      <label for="email">Nombre servicio</label>
+                      <input type="text" class="form-control" placeholder="Detallado" id="email" >
+                  </div>
+                  <div class="form-group">
+                      <label for="pwd">Detalles</label>
+                      <input type="text" class="form-control" placeholder="Planes sin límites, medidor de masa muscular, índice calórico, rutinas personalizadas, web space.
+                      " id="pwd"  height="100px">
+                  </div>
+                  <div >
+                      <label for="pwd">Valor plan</label>
+                      <input type="number" class="form-control" placeholder="$45" id="pwd" >
+                  </div>
+                  <br><button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+          </div>    
+      </div>
+  </div>
+</div>
+
+
+
+
+
+
+<!-- plan preferencial ver -->
+<div  class="modal" id="planPreferencialVer">
+  <div class="modal-dialog">
+      <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+              <h4 class="modal-title">Plan Preferencial</h4>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+              <form>
+                  <div class="form-group">
+                      <label for="email">Nombre servicio</label>
+                      <input type="text" class="form-control" placeholder="Preferencial" id="email" disabled>
+                  </div>
+                  <div class="form-group">
+                      <label for="pwd">Detalles</label>
+                      <input type="text" class="form-control" placeholder="Creación de planes para amigos, herramientas de apoyo, red de apoyo, consulta sin previa agendación, servicios de soporte inmediato.
+                      " id="pwd" disabled height="100px">
+                  </div>
+                  <div >
+                      <label for="pwd">Valor plan</label>
+                      <input type="number" class="form-control" placeholder="$50" id="pwd" disabled>
+                  </div>
+                  <br><button type="submit" class="btn btn-primary">Salir</button>
+              </form>
+          </div>    
+      </div>
+  </div>
+</div>
+
+
+<!-- plan preferencial editar -->
+<div  class="modal" id="planPreferencialEditar">
+  <div class="modal-dialog">
+      <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+              <h4 class="modal-title">Plan Preferencial</h4>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+              <form>
+                  <div class="form-group">
+                      <label for="email">Nombre servicio</label>
+                      <input type="text" class="form-control" placeholder="Preferencial" id="email" >
+                  </div>
+                  <div class="form-group">
+                      <label for="pwd">Detalles</label>
+                      <input type="text" class="form-control" placeholder="Creación de planes para amigos, herramientas de apoyo, red de apoyo, consulta sin previa agendación, servicios de soporte inmediato.
+                      " id="pwd"  height="100px">
+                  </div>
+                  <div >
+                      <label for="pwd">Valor plan</label>
+                      <input type="number" class="form-control" placeholder="$50" id="pwd" >
+                  </div>
+                  <br><button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+          </div>    
+      </div>
+  </div>
+</div>
+
+
+</body>
+
+</html>

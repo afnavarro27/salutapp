@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>SalutApp Landing page</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+	<link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css">
+	<link rel="stylesheet" href="vendors/owl.carousel/css/owl.carousel.css">
+	<link rel="stylesheet" href="vendors/owl.carousel/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="vendors/aos/css/aos.css">
+	<link rel="stylesheet" href="vendors/jquery-flipster/css/jquery.flipster.css">
+	<link rel="stylesheet" href="css/style2.css">
+	<link rel="shortcut icon" href="css/images/favicon.png" />
+	<script src="/js/validacionLogin.js"></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<div id="mobile-menu-overlay"></div>
+	<nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#"><img src="css/images/Logov1.png" alt="LogoSalutApp"></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+				aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"><i class="mdi mdi-menu"> </i></span>
+			</button>
+			<div id="listaNavBar" class="collapse navbar-collapse" id="navbarTogglerDemo01">
+				<div class="d-lg-none d-flex justify-content-between px-4 py-3 align-items-center">
+					<img src="css/images/Logov1.png" class="logo-mobile-menu" alt="logo">
+					<a href="javascript:;" class="close-menu"><i class="mdi mdi-close"></i></a>
+				</div>
+				<ul id="ul1" class="navbar-nav ">
+					<li class="nav-item active">
+						<a class="nav-link" href="#home">Inicio <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#projects">Proyecto</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#testimonial">Reseñas</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#plans">Planes</a>
+					</li>
+					<div id="botones-ingreso">
+					<li class="nav-item">
+						<button id="botonesMenu1" type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalIngreso">
+              Iniciar sesión
+            </button>
+						</div>
+					</li>
+					<li class="nav-item">
+						<button id="botonesMenu2" type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalRegistro">
+							Registrarse
+						</button>
+					</li>
+				
+				</ul>
+			</div>
+		</div>
+	</div>
+	</nav>
+	<div class="page-body-wrapper">
+		<section id="home" class="home">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="main-banner">
+							<div class="d-sm-flex justify-content-between">
+								<div data-aos="zoom-in-up">
+									<div class="banner-title">
+										<h3 class="font-weight-medium">El placer de vivir saludable, somos un proyecto
+											enfocado en mejorar la calidad de vida y salud de las personas
+										</h3>
+									</div>
+									<p class="mt-3">Lorem Ipsum is simply dummy text of the printing and typesetting
+										industry.
+
+										<br>
+										Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+									</p>
+									<a href="#" class="btn btn-secondary mt-3">¡Descarga ahora!</a>
+								</div>
+								<div class="mt-5 mt-lg-0">
+									<img src="css/images/group.png" alt="marsmello" class="img-fluid" data-aos="zoom-in-up">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		
+		<section class="our-projects" id="projects">
+			<div class="container">
+				<div class="row pt-5 mt-5 pb-5 mb-5">
+					<div class="col-sm-3">
+						<div class="d-flex py-3 my-3 my-lg-0 justify-content-center" data-aos="fade-down">
+							<img src="css/images/satisfied-client.svg" alt="satisfied-client" class="mr-3">
+							<div>
+								<h4 class="font-weight-bold text-dark mb-0"><span class="scVal">0</span>%</h4>
+								<h5 class="text-dark mb-0">Clientes satisfechos</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="d-flex py-3 my-3 my-lg-0 justify-content-center" data-aos="fade-up">
+							<img src="css/images/finished-project.svg" alt="satisfied-client" class="mr-3">
+							<div>
+								<h4 class="font-weight-bold text-dark mb-0"><span class="fpVal">0</span></h4>
+								<h5 class="text-dark mb-0">Metas cumplidas</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="d-flex py-3 my-3 my-lg-0 justify-content-center" data-aos="fade-down">
+							<img src="css/images/team-members.svg" alt="Team Members" class="mr-3">
+							<div>
+								<h4 class="font-weight-bold text-dark mb-0"><span class="tMVal">0</span></h4>
+								<h5 class="text-dark mb-0">Especialistas</h5>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="d-flex py-3 my-3 my-lg-0 justify-content-center" data-aos="fade-up">
+							<img src="css/images/our-blog-posts.svg" alt="Our Blog Posts" class="mr-3">
+							<div>
+								<h4 class="font-weight-bold text-dark mb-0"><span class="bPVal">0</span></h4>
+								<h5 class="text-dark mb-0">Recetas y rutinas de entrenamiento</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="testimonial" id="testimonial">
+			<div class="container">
+				<div class="row  mt-md-0 mt-lg-4">
+					<div class="col-sm-6 text-white" data-aos="fade-up">
+						<p class="font-weight-bold mb-3">testimonial</p>
+						<h3 class="font-weight-medium">Nuestros clientes son nuestros<br>mayores admiradores</h3>
+						<ul class="flipster-custom-nav">
+							<li class="flipster-custom-nav-item">
+								<a href="javascript:;" class="flipster-custom-nav-link" title="0"></a>
+							</li>
+							<li class="flipster-custom-nav-item">
+								<a href="javascript:;" class="flipster-custom-nav-link" title="1"></a>
+							</li>
+							<li class="flipster-custom-nav-item">
+								<a href="javascript:;" class="flipster-custom-nav-link active" title="2"></a>
+							</li>
+							<li class="flipster-custom-nav-item">
+								<a href="javascript:;" class="flipster-custom-nav-link" title="3"></a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-6" data-aos="fade-up">
+						<div id="testimonial-flipster">
+							<ul>
+								<li>
+									<div class="testimonial-item">
+										<img src="css/images/testimonial/testimonial1.jpg" alt="icon"
+											class="testimonial-icons">
+										<p>Gracias a SalutApp puedo mantener más energias siguiendo sus rutinas de
+											entrenamiento y planes nutricionales.
+										</p>
+										<h6 class="testimonial-author">Ernesto perez</h6>
+										<p class="testimonial-destination">Enfermero</p>
+									</div>
+								</li>
+								<li>
+									<div class="testimonial-item">
+										<img src="css/images/testimonial/testimonial2.jpg" alt="icon"
+											class="testimonial-icons">
+										<p>Me ayudo mucho en cuanto a mi salud, estoy muya agradecido con ellos
+										</p>
+										<h6 class="testimonial-author">Alex Rondon</h6>
+										<p class="testimonial-destination">Comerciante</p>
+									</div>
+								</li>
+								<li>
+									<div class="testimonial-item">
+										<img src="css/images/testimonial/testimonial4.jpg" alt="icon"
+											class="testimonial-icons">
+										<p>Gracias a salutApp pude mejorar mi alimentacion y calidad de sueño, me
+											encanto la app
+										</p>
+										<h6 class="testimonial-author">Daniel Rmirez</h6>
+										<p class="testimonial-destination">Periodista</p>
+									</div>
+								</li>
+								<li>
+									<div class="testimonial-item">
+										<img src="css/images/testimonial/testimonial3.jpg" alt="icon"
+											class="testimonial-icons">
+										<p>Me encanto la app, lo mejor del mundo
+										</p>
+										<h6 class="testimonial-author">Mark Spenser</h6>
+										<p class="testimonial-destination">Director,Dj market</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+
+	</div>
+	<footer class="footer">
+		<div class="footer-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<address>
+							<p>Un proyecto con la ayuda del Sena</p>
+							<p class="mb-4">Itagui Antioquia Colombia</p>
+							<div class="d-flex align-items-center">
+								<p class="mr-4 mb-0">+57 311 703 75 82</p>
+								<a href="mailto:info@yourmail.com" class="footer-link">info@yourmail.com</a>
+							</div>
+							<div class="d-flex align-items-center">
+								<p class="mr-4 mb-0">+57 312 278 9925</p>
+								<a href="mailto:Marshmallow@yourmail.com"
+									class="footer-link">SalutApp@gmail.com</a>
+							</div>
+						</address>
+						<div class="social-icons">
+							<h6 class="footer-title font-weight-bold">
+								Redes
+							</h6>
+							<div class="d-flex">
+								<a href="#"><i class="mdi mdi-github-circle"></i></a>
+								<a href="#"><i class="mdi mdi-facebook-box"></i></a>
+								<a href="#"><i class="mdi mdi-twitter"></i></a>
+								<a href="#"><i class="mdi mdi-dribbble"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="row">
+							<div class="col-sm-4">
+								<h6 class="footer-title">Social</h6>
+								<ul class="list-footer">
+									<li><a href="#" class="footer-link">inicio</a></li>
+									<li><a href="#" class="footer-link">Acerca de</a></li>
+									<li><a href="#" class="footer-link">Servicios</a></li>
+									<li><a href="#" class="footer-link">Portfolio</a></li>
+									<li><a href="#" class="footer-link">Contacto</a></li>
+								</ul>
+							</div>
+							<div class="col-sm-4">
+								<h6 class="footer-title">Producto</h6>
+								<ul class="list-footer">
+									<li><a href="#" class="footer-link">Marketing Digital</a></li>
+									<li><a href="#" class="footer-link">Desarrollo web</a></li>
+									<li><a href="#" class="footer-link">Desarrollo App</a></li>
+									<li><a href="#" class="footer-link">Diseño</a></li>
+								</ul>
+							</div>
+							<div class="col-sm-4">
+								<h6 class="footer-title">Compañia</h6>
+								<ul class="list-footer">
+									<li><a href="#" class="footer-link">Patrocionadores</a></li>
+									<li><a href="#" class="footer-link">Inversores</a></li>
+									<li><a href="#" class="footer-link">Patrocinio</a></li>
+									<li><a href="#" class="footer-link">FAQ</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="d-flex justify-content-between align-items-center">
+					<div class="d-flex align-items-center">
+						<img src="css/images/Logov1.png" alt="logo">
+						<p class="mb-0 text-small pt-1">© 2021-2023 <a href="https://www.bootstrapdash.com"
+								class="text-white" target="_blank">SalutApp</a>. All rights reserved.</p>
+					</div>
+					<div>
+						<div class="d-flex">
+							<a href="#" class="text-small text-white mx-2 footer-link">Politica de privacidad </a>
+							<a href="#" class="text-small text-white mx-2 footer-link">Soporte al cliente </a>
+							<a href="#" class="text-small text-white mx-2 footer-link">Carrera </a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>	
+  <!-- Modal Ingreso-->
+  <div id="modalIngreso" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div id="modalContenido" class="modal-content">
+        <div class="modal-header">
+          <div class="login-form">
+            <form action="/examples/actions/confirmation.php" method="post">
+              <h2 class="text-center">INICIAR SESION</h2>
+              <div class="form-group">
+                <input type="text" id="UsuarioLoguin" class="form-control" placeholder="Usuario" required="required">
+              </div>
+              <div class="form-group">
+                <input type="password" id="contraseñaLoguin" class="form-control" placeholder="Contraseña" required="required">
+              </div>
+              <div class="form-group">
+                <a href="templates/principal.html"> <button type="button" class="btn btn-primary btn-block" onclick="validacionLogin()">Iniciar sesion</button></a>
+              </div>
+              <div class="clearfix">
+                <label class="pull-left checkbox-inline"><input type="checkbox"> Permanecer conectado</label>
+                <a href="#" class="pull-right">¿No puedes iniciar sesión?</a>
+              </div>
+            </form>
+            <a data-toggle="modal" data-target="#myModal" data-dismiss="modal" class="text-center">Crear una cuenta</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Modal -->
+    <div id="modalRegistro" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+       <!-- Modal content-->
+			 <div id="modalcontenido2" class="modal-content">
+				<div class="modal-header">
+					<h2 class="text-center">REGISTARSE</h2>
+				</div>
+				<div class="modal-body">
+					<form action="/examples/actions/confirmation.php" method="post">
+					
+						<label for="Nombre"> Nombre</label>	
+						<div class="input-group mb-3">
+							<div class="input-group-prepend">
+								<span class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+									<path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+									<path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+								</svg></span>
+							</div>
+							<input type="text" id="Nombre" class="form-control">
+						</div>
+
+						<label for="Apellido"> Apellido</label>	
+						<div class="input-group mb-3">
+							<div class="input-group-prepend">
+								<span class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+									<path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+									<path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+								</svg></span>
+							</div>
+							<input type="text" id="Apellido" class="form-control">
+						</div>
+
+						<label for="Email"> Dirección de correo</label>	
+						<div class="input-group mb-3">
+							<input type="text" id="Email" class="form-control">
+							<div class="input-group-prepend">
+									<span class="input-group-text">@example.com</span>
+								</div>
+						</div>
+
+						<label for="User">Usuario</label>	
+						<div class="input-group mb-3">
+								<div class="input-group-prepend">
+										<span class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-emoji-laughing" viewBox="0 0 16 16">
+											<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+											<path d="M12.331 9.5a1 1 0 0 1 0 1A4.998 4.998 0 0 1 8 13a4.998 4.998 0 0 1-4.33-2.5A1 1 0 0 1 4.535 9h6.93a1 1 0 0 1 .866.5zM7 6.5c0 .828-.448 0-1 0s-1 .828-1 0S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 0-1 0s-1 .828-1 0S9.448 5 10 5s1 .672 1 1.5z"/>
+										</svg></span>
+									</div>
+							<input type="text" id="User" class="form-control">
+						</div>
+
+						<label for="Psw"> Contraseña</label>	
+						<div class="input-group mb-3">
+								<div class="input-group-prepend">
+										<span class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-key" viewBox="0 0 16 16">
+											<path d="M0 8a4 4 0 0 1 7.465-2H14a.5.5 0 0 1 .354.146l1.5 1.5a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0L13 9.207l-.646.647a.5.5 0 0 1-.708 0L11 9.207l-.646.647a.5.5 0 0 1-.708 0L9 9.207l-.646.647A.5.5 0 0 1 8 10h-.535A4 4 0 0 1 0 8zm4-3a3 3 0 1 0 2.712 4.285A.5.5 0 0 1 7.163 9h.63l.853-.854a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.793-.793-1-1h-6.63a.5.5 0 0 1-.451-.285A3 3 0 0 0 4 5z"/>
+											<path d="M4 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+										</svg></span>
+									</div>
+							<input type="text" id="Psw" class="form-control">
+						</div>
+
+						<label for="Psw2"> Confirma tu Contraseña</label>	
+						<div class="input-group mb-3">
+								<div class="input-group-prepend">
+										<span class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-key" viewBox="0 0 16 16">
+											<path d="M0 8a4 4 0 0 1 7.465-2H14a.5.5 0 0 1 .354.146l1.5 1.5a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0L13 9.207l-.646.647a.5.5 0 0 1-.708 0L11 9.207l-.646.647a.5.5 0 0 1-.708 0L9 9.207l-.646.647A.5.5 0 0 1 8 10h-.535A4 4 0 0 1 0 8zm4-3a3 3 0 1 0 2.712 4.285A.5.5 0 0 1 7.163 9h.63l.853-.854a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708 0l.646.647.793-.793-1-1h-6.63a.5.5 0 0 1-.451-.285A3 3 0 0 0 4 5z"/>
+											<path d="M4 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+										</svg></span>
+									</div>
+							<input type="text" id="Psw2" class="form-control">
+						</div>
+				<div id="modalFooter" class="modal-footer">
+					<div class="clearfix">
+						<label class="pull-left checkbox-inline"><input type="checkbox" required="required"> Acepto terminos y condiciones</label>
+						<a data-toggle="modal" data-target="#ModalIngreso" data-dismiss="modal" class="pull-right">¿Ya tienes una cuenta?</a>
+					</form>
+					<div class="form-group">
+							<button type="submit" class="btn btn-primary btn-block">Registrar</button>
+						</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+	<script src="vendors/base/vendor.bundle.base.js"></script>
+	<script src="vendors/owl.carousel/js/owl.carousel.js"></script>
+	<script src="vendors/aos/js/aos.js"></script>
+	<script src="vendors/jquery-flipster/js/jquery.flipster.min.js"></script>
+	<script src="js/template.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+@import url(//cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css);
+
+body {
+  font-family: sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.header-social {
+  height: 40px;
+  width: 100%;
+  background-color: #052035;
+}
+
+.banner {
+  width: 100%;
+  height: 150px;
+}
+
+.container-fluid {
+  background-color: #052035;
+}
+
+.navbar-brand img {
+  float: top;
+  width: 25px;
+  height: auto;
+}
+
+.icon {
+  height: 15px;
+}
+
+#Nav {
+  border-radius: none;
+  border-style: none;
+}
+
+.header-social__icons {
+  float: right;
+}
+
+.icon1 {
+  margin-top: 5px;
+  border-radius: 20px;
+  background-color: #027496;
+  height: 30px;
+}
+
+#btn-registro {
+  margin-right: 20px;
+}
+
+#btn-registro,
+#btn-ingreso {
+  margin-left: 15px;
+  color: #878787;
+  margin-top: 17px;
+  background-color: #052035;
+  height: auto;
+  border: none;
+  font-size: small;
+}
+#btn-registro:hover {
+  color: white;
+}
+
+#btn-registro:active {
+  border: none;
+  background-color: #02111c;
+}
+
+#btn-ingreso:hover {
+  color: white;
+}
+
+#btn-ingreso:active {
+  border: none;
+  background-color: #02111c;
+}
+
+td:hover {
+  background-color: wheat;
+}
+
+.formulario-registro,
+.formulario-footer {
+  margin: 0 25%;
+}
+
+#boton-formulario {
+  background-color: #027496;
+  color: white;
+}
+
+#carousel {
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+}
